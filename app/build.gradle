@@ -10,8 +10,19 @@ android {
         applicationId 'com.hunik.launcher'
         minSdk 19
         targetSdk 34
-        versionCode 1
-        versionName '1.0'
+        versionCode 10101      // 1.1.1 -> major*10000 + minor*100 + patch
+        versionName '1.1.1'
+    }
+
+    // Fixed key (instead of a new random debug key on every GitHub run),
+    // so a new APK installs over the old one without uninstalling.
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
     }
 
     compileOptions {

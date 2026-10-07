@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Launcher Herman S.Hunik</string>
+    <string name="wallpaper">الخلفية</string>
+    <string name="wp_pick">اختيار صورة من المعرض</string>
+    <string name="wp_reset">استعادة الخلفية الافتراضية</string>
+    <string name="wp_done">تم تعيين الخلفية</string>
+    <string name="wp_fail">تعذّر تعيين الخلفية</string>
+    <string name="wp_maroon">عنابي</string>
+    <string name="wp_onyx">أسود</string>
+    <string name="wp_plum">برقوقي</string>
+    <string name="wp_midnight">ليلي</string>
+    <string name="wp_graphite">رمادي</string>
 </resources>

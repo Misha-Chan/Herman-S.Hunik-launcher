@@ -1,3 +1,7 @@
 <resources>
-    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.NoActionBar" />
+    <!-- Wallpaper shows through the window; status/nav bars are translucent. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
 </resources>
