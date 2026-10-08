@@ -1,10 +1,18 @@
 # Launcher Herman S.Hunik
 
+## 2.1.1
+- Home screen: big clock + date, home shortcuts (4 columns), dock (Firefox, Gmail, YouTube, Phone, SMS).
+- Swipe up opens the app drawer, swipe down (or Back) closes it.
+- Drag an app from the drawer to the home screen (shortcut) or onto a dock slot (replaces that app).
+  Shortcuts can be moved on the home screen and between home and dock.
+- Long press on an app = menu: Uninstall / App info / Hide (home & dock: Remove from screen / App info / Uninstall).
+- Eye icon at the top of the drawer shows hidden apps (long press -> Unhide).
+- Wallpaper chooser moved to a long press on the empty home screen.
+- Portrait only (keeps the home grid stable). Settings are stored in SharedPreferences.
+
 ## 1.1.1
-- Wallpaper: 5 built-in gradients (maroon palette), pick any photo from the gallery, restore default.
-- New look: system wallpaper behind the grid, translucent status/nav bars, large clock + date,
-  uniform rounded white icon tiles, soft press animation, fade-in on start.
-- Fixed signing key: updates now install over the previous version (first install of 1.1.1 needs 1.0 uninstalled once).
+- Wallpaper chooser, new look (clock, rounded icon tiles, press animation).
+- Fixed signing key so updates install over the previous version.
 
 ## 1.0
 - App grid, custom icons for selected packages, long-press for app info.

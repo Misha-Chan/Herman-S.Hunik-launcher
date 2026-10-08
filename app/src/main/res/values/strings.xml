@@ -10,4 +10,14 @@
     <string name="wp_plum">برقوقي</string>
     <string name="wp_midnight">ليلي</string>
     <string name="wp_graphite">رمادي</string>
+    <string name="all_apps">كل التطبيقات</string>
+    <string name="hidden_apps">التطبيقات المخفية</string>
+    <string name="m_uninstall">إزالة التطبيق</string>
+    <string name="m_info">معلومات التطبيق</string>
+    <string name="m_hide">إخفاء</string>
+    <string name="m_unhide">إظهار</string>
+    <string name="m_remove_home">إزالة من الشاشة</string>
+    <string name="t_hidden">تم إخفاء التطبيق، تجده بأيقونة العين</string>
+    <string name="t_unhidden">تم إظهار التطبيق</string>
+    <string name="t_full">الشاشة الرئيسية ممتلئة</string>
 </resources>

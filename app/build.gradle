@@ -10,8 +10,8 @@ android {
         applicationId 'com.hunik.launcher'
         minSdk 19
         targetSdk 34
-        versionCode 10101      // 1.1.1 -> major*10000 + minor*100 + patch
-        versionName '1.1.1'
+        versionCode 20101      // 2.1.1 -> major*10000 + minor*100 + patch
+        versionName '2.1.1'
     }
 
     // Fixed key (instead of a new random debug key on every GitHub run),
